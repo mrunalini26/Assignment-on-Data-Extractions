@@ -1,0 +1,32 @@
+data1=pd.read_excel("SEARCH, MID and LEN.xlsx")
+data1.head()
+data1['MID_'].str.split('/').str[0]
+#output:
+0          mens-clothing
+1                 sarees
+2             home-decor
+3                  books
+4           home-kitchen
+5                   toys
+6                   toys
+7             automotive
+8                mobiles
+9     mobile-accessories
+10          home-kitchen
+11            home-decor
+12          home-kitchen
+13            home-decor
+14                  toys
+15         mens-clothing
+16       womens-clothing
+17          western-wear
+18       womens-clothing
+19                  toys
+20                  toys
+21       home-furnishing
+22        sports-fitness
+23        kitchen-dining
+24          home-kitchen
+25       womens-footwear
+26                  toys
+Name: MID_, dtype: object
